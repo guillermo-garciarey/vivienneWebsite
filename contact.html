@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Vivienne Glynn Physical Therapist</title>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, user-scalable=no"
+		/>
+		<link
+			rel="stylesheet"
+			href="assets/css/main.css"
+		/>
+	</head>
+	<body class="is-preload">
+		<!-- Header -->
+		<header id="header">
+			<h1><a href="index.html">VG Physical Therapy</a></h1>
+			<a href="#menu">Menu</a>
+		</header>
+
+		<!-- Menu -->
+		<nav id="menu">
+			<ul class="links">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="aboutme.html">About Me</a></li>
+				<li><a href="services.html">Services</a></li>
+				<li><a href="faq.html">FAQ</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+			<ul class="actions stacked">
+				<li>
+					<a
+						href="#"
+						class="button primary fit"
+						>Make a booking</a
+					>
+				</li>
+				<!-- <li>
+					<a
+						href="#"
+						class="button fit"
+						>Log In</a
+					>
+				</li> -->
+			</ul>
+		</nav>
+
+		<!-- Main -->
+		<section
+			id="main"
+			class="wrapper"
+		>
+			<header>
+				<h2>Contact</h2>
+			</header>
+			<div class="inner">
+				<section>
+					<form id="contactForm">
+						<div class="row gtr-uniform">
+							<div class="col-6 col-12-xsmall">
+								<label for="demo-name">Name</label>
+								<input
+									type="text"
+									name="demo-name"
+									id="demo-name"
+									value=""
+									required
+								/>
+							</div>
+							<div class="col-6 col-12-xsmall">
+								<label for="demo-email">Email</label>
+								<input
+									type="email"
+									name="demo-email"
+									id="demo-email"
+									value=""
+									required
+								/>
+							</div>
+
+							<div class="col-12">
+								<label for="demo-message">Message</label>
+								<textarea
+									name="demo-message"
+									id="demo-message"
+									rows="6"
+									required
+								></textarea>
+							</div>
+							<div class="col-12">
+								<ul class="actions">
+									<li>
+										<button
+											type="submit"
+											class="primary"
+										>
+											Send Message
+										</button>
+									</li>
+									<li>
+										<input
+											type="reset"
+											value="Reset"
+										/>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</form>
+				</section>
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<div class="inner">
+				<ul class="icons">
+					<li>
+						<a
+							href="https://www.facebook.com/profile.php?id=100063963253515"
+							class="icon brands fa-facebook-f"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<span class="label">Facebook</span>
+						</a>
+					</li>
+					<li>
+						<a
+							href="https://www.instagram.com/vglynnphysio/"
+							class="icon brands fa-instagram"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<span class="label">Instagram</span>
+						</a>
+					</li>
+
+					<li>
+						<a
+							href="contact.html"
+							class="icon solid fa-envelope"
+							><span class="label">Envelope</span></a
+						>
+					</li>
+					<li>
+						<a
+							href="tel:0862124237"
+							class="icon solid fa-phone"
+						>
+							<span class="label">Telephone</span>
+						</a>
+					</li>
+					<li>
+						<a
+							href="https://maps.app.goo.gl/oNnvzMdg2XHk9XEb9"
+							class="icon solid fa-location-dot"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<span class="label">Map</span>
+						</a>
+					</li>
+				</ul>
+				<ul class="contact">
+					<li>Glenesk Offices</li>
+					<li>Glenesk Commercial Centre</li>
+					<li>Dublin Road</li>
+					<li>Castletroy, Co. Limerick</li>
+				</ul>
+				<ul class="links">
+					<li><a href="faq.html">FAQ</a></li>
+
+					<li><a href="#">Terms</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+				<p class="copyright">&copy; No Copyright</p>
+			</div>
+		</footer>
+
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+		<script>
+			document
+				.getElementById("contactForm")
+				.addEventListener("submit", function (event) {
+					event.preventDefault(); // Prevent actual form submission
+
+					// Get form values
+					var name = document.getElementById("demo-name").value;
+					var email = document.getElementById("demo-email").value;
+					var message = document.getElementById("demo-message").value;
+
+					// Construct mailto link
+					var mailtoLink = `mailto:guillermo.garciarey@gmail.com?subject=Consultation&body=Name: ${encodeURIComponent(
+						name
+					)}%0AEmail: ${encodeURIComponent(email)}%0A%0A${encodeURIComponent(
+						message
+					)}`;
+
+					// Open default email client
+					window.location.href = mailtoLink;
+				});
+		</script>
+	</body>
+</html>
