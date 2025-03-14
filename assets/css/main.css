@@ -3049,6 +3049,10 @@ table.alt tbody tr td {
 		text-align: center;
 	}
 
+	.circleswrapper {
+		width: 75% !important;
+	}
+
 	.wrapper.split ul.actions {
 		-moz-justify-content: center;
 		-webkit-justify-content: center;
@@ -4275,7 +4279,7 @@ body.is-preload #banner .inner .actions {
 	align-items: center;
 	justify-content: center;
 	border-radius: 4px;
-	border: rgba(144, 144, 144, 1) solid 1px;
+	/* border: rgba(144, 144, 144, 1) solid 1px; */
 	width: 40%;
 	margin: 1rem;
 	padding: 0.5rem;
