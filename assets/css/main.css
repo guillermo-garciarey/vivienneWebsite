@@ -4380,3 +4380,28 @@ body.is-preload #banner .inner .actions {
 		position: relative;
 	}
 }
+
+.conditionscontainer {
+	display: flex;
+	flex: 1;
+}
+
+.listcontainer {
+	display: flex;
+	flex: 1;
+	padding-left: 1em;
+}
+
+.services {
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+}
+
+.services p {
+	color: #303639;
+}
+
+.servicestext {
+	color: rgb(153, 153, 153);
+}
