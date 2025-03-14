@@ -4218,16 +4218,20 @@ body.is-preload #banner .inner .actions {
 .profilepic img {
 	object-fit: cover;
 	object-position: 0 10%;
+	/* border: rgba(144, 144, 144, 1) solid 1px; */
 
-	width: 90%;
+	/* border: #db6172 solid 1px; */
+	width: 100%;
 	border-radius: 4px;
 	overflow: hidden;
+	aspect-ratio: 1/1;
+	/* padding: 1px; */
 }
 
 .profilepic {
 	height: 100%;
 	overflow: hidden;
-	max-height: 350px;
+	/* max-height: 350px; */
 }
 
 .profilepic img {
