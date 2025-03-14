@@ -4261,3 +4261,22 @@ body.is-preload #banner .inner .actions {
 	object-position: center;
 	border: rgba(144, 144, 144, 0.2) solid 1px;
 }
+
+.mapcontainer {
+	display: flex;
+	flex: 1;
+	align-items: center;
+	justify-content: center;
+}
+
+.map {
+	display: flex;
+
+	align-items: center;
+	justify-content: center;
+	border-radius: 4px;
+	border: rgba(144, 144, 144, 1) solid 1px;
+	width: 40%;
+	margin: 1rem;
+	padding: 0.5rem;
+}
